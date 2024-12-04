@@ -26,7 +26,7 @@ global.caption = process.env.CAPTION || global.caption || "© SuhailTechInfo"
 
 global.devs = "" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "2347087748213";
 
 
 
@@ -74,10 +74,10 @@ module.exports = {
   VERSION : process.env.VERSION || "1.0.1-developement-x",
   caption : global.caption || "" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ GlobalTechInfo ® 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@GlobalTechInfo"),
  
-  author : process.env.PACK_AUTHER|| "",
-  packname: process.env.PACK_NAME || "",
-  botname : process.env.BOT_NAME  || "Suhail-XMD",
-  ownername:process.env.OWNER_NAME|| "Suhail-X",
+  author : process.env.PACK_AUTHER|| "NUX SAVAGE",
+  packname: process.env.PACK_NAME || "NUX SAVAGE",
+  botname : process.env.BOT_NAME  || "SAVAGE",
+  ownername:process.env.OWNER_NAME|| "NUX SAVAGE",
 
 
   errorChat : process.env.ERROR_CHAT || "",
